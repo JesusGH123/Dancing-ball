@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour
 
     void ChangeDirection()
     {
-        moveSpeed += 0.01f;
         //If it is moving on the x, move it on the z
         if(rb.velocity.x > 0)
             rb.velocity = new Vector3(0, 0, moveSpeed);

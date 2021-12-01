@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] GameObject player;
 
     Vector3 offset;
-    [SerializeField] float cameraFollowRate = 2f; 
+    [SerializeField] float cameraFollowRate = 3f; 
 
     void Start()
     {
